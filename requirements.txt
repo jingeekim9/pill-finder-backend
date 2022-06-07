@@ -39,8 +39,8 @@ six==1.16.0
 sniffio==1.2.0
 starlette==0.19.1
 tifffile==2022.5.4
-torch==1.8.1+cpu 
-torchvision==0.9.1+cpu
+torch==1.10.1+cpu 
+torchvision==0.11.2+cpu
 typing-extensions==4.2.0
 urllib3==1.26.9
 uvicorn==0.17.6
