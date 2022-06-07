@@ -1,12 +1,7 @@
-#기본 library
-import pandas as pd
-import numpy  as np
-
 #shape에 필요한 library
 import cv2
 import sys
 from matplotlib import pyplot as plt
-import numpy as np
 
 #color에 필요한 library
 from colormath.color_objects import sRGBColor, LabColor
