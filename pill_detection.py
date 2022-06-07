@@ -1,5 +1,12 @@
+#기본 library
+import pandas as pd
+import numpy  as np
+
 #shape에 필요한 library
 import cv2
+import sys
+from matplotlib import pyplot as plt
+import numpy as np
 
 #color에 필요한 library
 from colormath.color_objects import sRGBColor, LabColor
@@ -8,6 +15,10 @@ from colormath.color_diff import delta_e_cie2000, delta_e_cmc
 
 #imprint에 필요한 library
 import easyocr
+from pytesseract import pytesseract # pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+
+#webbrowsing에 필요한 library
+import webbrowser
 
 class pillDetection:
     def __init__(self, image_path):
@@ -127,4 +138,5 @@ class pillDetection:
                      'maroon':44,'orange':7,'peach':74,'pink':8,'purple':9,'red':10,'tan':11,'yellow':13}    
             
         url = f"https://www.drugs.com/imprints.php?imprint={resImprint}&color={COLORDICT.get(resColor)}&shape={SHAPEDICT.get(resShape)}"
+#         webbrowser.open(url, new=1)
         return url    
