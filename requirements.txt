@@ -39,8 +39,8 @@ six==1.16.0
 sniffio==1.2.0
 starlette==0.19.1
 tifffile==2022.5.4
-https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
-torchvision==0.2.2
+torch==1.8.1+cpu 
+torchvision==0.9.1+cpu
 typing-extensions==4.2.0
 urllib3==1.26.9
 uvicorn==0.17.6
